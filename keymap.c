@@ -149,6 +149,6 @@ void sc_reset (qk_tap_dance_state_t *state, void *user_data){
 	xtap_state.state = 0;	
 }
 
-qk_tap_dance_state_t tap_dance_actions[] = {
+qk_tap_dance_action_t tap_dance_actions[] = {
 [SHIFT_CTL] = ACTION_TAP_DANCE_FN_ADVANCED (NULL, sc_finished, sc_reset)
 };
